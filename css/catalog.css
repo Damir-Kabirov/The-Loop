@@ -1,0 +1,224 @@
+.collection{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.collection_card{
+    display: flex;
+    padding-top: 60px;
+    padding-left: 35px;
+}
+.collection_men{
+   justify-content: flex-end;
+   background: #F9F6F1;
+}
+.collection_women{
+    justify-content: flex-start;
+    background: #F4F4F4
+}
+.collection_img{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.collection_title{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+}
+.collection_btn{
+    color: #FFF;
+    background-color: #D7B399;
+    padding: 3px 25px;
+}
+.categori{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 150px;
+    margin-top: 40px;
+}
+.category_card{
+ max-width: 277px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background-color: #F4F4F4;
+ padding: 20px;
+}
+.category_img{
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.catalog__title{
+    font-size: 28px;
+    color: #4c4949;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cards__container{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 10px;
+   margin-top: 40px;
+
+}
+.card{
+    max-width: 236px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.card_name{
+    font-size: 16px;
+    margin-top: 10px;
+    color: #767171;
+}
+.card_img{
+    height: 290px;
+    max-width: 220px;
+    object-fit: contain;
+}
+.available{
+    font-size: 14px;
+    color: green;
+}
+.last_price{
+    font-size: 14px;
+    color: #A59B9B;
+    display: block;
+    text-align: right;
+    text-decoration: line-through;
+	text-decoration-color: red;
+}
+.sum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.sum_text{
+    font-size: 12px;
+}
+.sum__price{
+    color: #FF0000;
+    display: block;
+}
+.sum__benefit{
+    color: #A59B9B;
+}
+.counter{
+    max-width: 50px;
+    padding: 10px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #A59B9B;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn_buy{
+    margin-top: 20px;
+    background-color: #FF0000;
+    color: #DDDADA;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+.benefit{
+    padding:4px 8px;
+    background-color: #FF0000;
+    color: #DDDADA;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 14px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    z-index: 100;
+}
+.info{
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  color: #A59B9B;
+}
+.like{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 120;
+    width: 30px;
+    height: 30px;
+    background-color: #d7c9c9;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.like>svg{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    margin-top: -10px;
+    left: 50%;
+    margin-left: -10px;
+}
+.like:hover{
+    background-color: #ee7575;
+}
+
+@media(max-width:950px){
+    .categori{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards__container{
+        grid-template-columns:1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+    }
+}
+@media(max-width:750px){
+    .collection{
+        grid-template-columns: 100%;
+    }
+    .collection_men {
+        justify-content: flex-start;
+    }
+}
+@media(max-width:600px){
+    .categori{
+        grid-template-columns: 1fr 1fr;
+    }
+    .category_img{
+        height: 150px;
+    }
+    .card_img{
+        height: 180px;
+    }
+}
+@media(max-width:400px){
+    .cards__container{
+        grid-template-columns:1fr;
+    }
+}

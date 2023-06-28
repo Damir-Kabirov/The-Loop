@@ -1,0 +1,67 @@
+{
+    "children":{
+        "arr":[
+            {
+                "img":"img/catalog/bomber.png",
+                "articul":"Арт.86013446",
+                "name":"Бомбер",
+                "price":1400,
+                "lastPrice":3500
+            },
+            {
+                "img":"img/catalog/child-trousers.png",
+                "articul":" Арт.65196",
+                "name":"Брюки для мальчика девочки комплект 3 шт",
+                "price":1300,
+                "lastPrice":1900
+            },
+            {
+                "img":"img/catalog/child-blus.png",
+                "articul":"Арт.86013446",
+                "name":"Рубашка летняя",
+                "price":600,
+                "lastPrice":1800
+            },
+            {
+                "img":"img/catalog//child-short-wensdey.png",
+                "articul":" Арт.65196",
+                "name":"Светящаяся футболка с принтом Уэнсдэй Wednesday",
+                "price":600,
+                "lastPrice":1200
+            }
+        
+        ]
+    },
+    "men":{
+        "arr":[
+            {
+                "img":"img/catalog/men-trousrs.png",
+                "articul":"Арт.86013446",
+                "name":"Брюки мужские джоггеры спортивные штаны карго на резинке",
+                "price":3200,
+                "lastPrice":6750
+            },
+            {
+                "img":"img/catalog/men-short.png",
+                "articul":" Арт.65196",
+                "name":"шорты мужские летние домашние карго ",
+                "price":3505,
+                "lastPrice":5700
+            },
+            {
+                "img":"img/catalog/men-ced.png",
+                "articul":"Арт.86013446",
+                "name":"VANS Кеды",
+                "price":2700,
+                "lastPrice":6000
+            },
+            {
+                "img":"img/catalog/men-blus.jpg",
+                "articul":" Арт.65196",
+                "name":"рубашка с длинным рукавом льняная классическая летняя",
+                "price":2869,
+                "lastPrice":6999
+            }
+        ]
+    }
+}

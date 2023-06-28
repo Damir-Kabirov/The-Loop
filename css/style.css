@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('./normilize.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./catalog.css');
+@import url('./footer.css');
+@import url('./auth.css');
+@import url('./cart.css');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 15px 35px;
+    margin: 0 auto;
+}
+
+.between_block{
+    padding: 70px 0px;
+    background-color: #F9F6F1;;
+    color: #000;
+    text-align: center;
+}
+.between-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+}
+.betwwen-subtitle{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;  
+}
+.db{
+    display: block;
+}
